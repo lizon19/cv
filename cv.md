@@ -13,3 +13,58 @@
 * HTML
 * Microsoft Office programs
 * Photoshop
+## Code examples:
+### C++ (inheritance):
+
+    #include <iostream>
+    using namespace std;
+
+    class rectangle {
+    protected:
+	int length;
+	int height; 
+    public:
+	rectangle(int length, int height) {
+		this->length = length; 
+		this->height = height;
+	}
+	int get_lenght() {
+		return length;
+	}
+	int get_height() {
+		return height;
+	}
+	int area() {
+		return length * height;
+	}
+    };
+     class trapeze : public rectangle {
+     protected:
+	int a,b;
+    public:
+	trapeze(int height, int a,int b):rectangle (length,height){
+		this->a=a;
+		this->b = b;
+	}
+	int get_a () {
+		return a;
+	}
+	int get_b() {
+		return b;
+	}
+	int area() {
+		return ((a+b)/2)*height;
+	}
+    };
+    int main() {
+	setlocale(0, "rus");
+	int x, y, z, g;
+	cout << "введите 4 числа через пробел для задания параметров фигур: ";
+	cin >> x >> y >> z >> g;
+	rectangle rec(x, y); 
+	cout << "S_rec = " << rec.area() << "\n";
+	trapeze trap(y, z, g);
+	cout << "S_trap = " << trap.area() << "\n";
+	system("pause");
+	return 0;
+    }
