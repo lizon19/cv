@@ -70,3 +70,4 @@
     }
 ## Languages:
 * English B2 (upper-intermediate) according to the online test EFSET and university testing 
+![eng](https://github.com/lizon19/cv/blob/markdown-cv/photo.jpg)
