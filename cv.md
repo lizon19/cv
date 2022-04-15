@@ -16,23 +16,25 @@
 ## Code examples:
 ### C++ (inheritance):
 
-    #include <iostream>
-    using namespace std;
+    #include <iostream>   
+    using namespace std;    
 
-    class rectangle {
-    protected:
-	int length;
-	int height; 
-    public:
-	rectangle(int length, int height) {
-		this->length = length; 
-		this->height = height;
-	}
-	int get_lenght() {
-		return length;
-	}
-	int get_height() {
-		return height;
+    class rectangle    
+    {   
+    protected:   
+	int length;   
+	int height;    
+    public:   
+	rectangle(int length, int height)    
+	{   
+		this->length = length;    
+		this->height = height;    
+	}    
+	int get_lenght()     {    
+		return length;    
+	}     
+	int get_height()     {    
+		return height;    
 	}
 	int area() {
 		return length * height;
