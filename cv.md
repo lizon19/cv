@@ -15,7 +15,7 @@
 * Photoshop
 ## Code examples:
 ### C++ (inheritance):
-
+```c++
     #include <iostream>
     using namespace std;
 
@@ -68,6 +68,7 @@
 	system("pause");
 	return 0;
     }
+    ```
 ## Languages:
 * English B2 (upper-intermediate) according to the online test EFSET and university testing 
 
