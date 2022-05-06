@@ -1,1 +1,126 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="icon" href="./assets/icon/buisness.ico">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">  
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>  
 
+        <header class="header">
+            <div class="container header-container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contacts</a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="#aboutme" class="nav-link">Briefly about myself</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#skills" class="nav-link">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#code" class="nav-link">                            
+                                    Code</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#education" class="nav-link">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#english" class="nav-link">English</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+                </header>
+            
+        <main class="main">
+            <div class="container main-container">
+                <section class="section section-profile" id="profile">
+                    <h1 class="section-title main-title">Elizaveta Semyonova</h1>
+                    <h3 class="section-subtitle">Student of VSU named after P. M. Masherov</h3>
+                    <img src="./assets/photo.jpg" width="350" height="350" alt="Liz" class="round">
+                    <div class="section-profile-title">
+                    </div>
+                </section>
+               
+                    <section class="section" id="contacts"> 
+                        <br> <br> <br>  <br> <br> <br> <br> <br>
+                        <h2 class="section-title">Contact information <img src="./assets/titles/contacts.png" width="30" height="30" alt="ed"></h2>
+                        <ul class="section-list">
+                            <li class="section-item contacts-item">Vitebsk, Belarus</li>
+                            <li class="section-item contacts-item">Email: 
+                                <a href="mailto:liza.semenovaama45@gmail.com" title="email">liza.semenovaama45@gmail.com</a>
+                            </li>
+                            <li class="section-item contacts-item">Github: 
+                                <a href="https://github.com/lizon19" title="github">lizon19</a>
+                            </li>
+                            <li class="section-item contacts-item">Telegram:
+                                 <a href="https://t.me/po1lk1" title="Telegram">@po1lk1</a>
+                                </li>
+                        </ul> 
+                    </section>
+
+                    <section class="section" id="aboutme">
+                        <h2 class="section-title">About myself <img src="./assets/titles/me.png" width="30" height="30" alt="me"></h2>
+                        <p>I’ve entered VSU in 2021 to the faculty of mathematics and informational technologies.
+                             In the future I’ll be working as a content maker.
+                             I’m eager to lerning Python and SQL, as <br> I want my profession to be connected with Data science.</p> 
+                    </section>
+                    
+                    <section class="section" id="skills">
+                        <h2 class="section-title">Skills <img src="./assets/titles/skills.png" width="30" height="30" alt="skills"></h2>
+                        <ul class="section-list"><li class="section-item">Programming languages: <span> HTML, C++</span></li>
+                            <li class="section-item">Graphics:<span> Adobe Photoshop, Canva</span></li>
+                            <br>
+                        </section>
+
+                        <section class="section" id="code">
+                            <h2 class="section-title">Code <img src="./assets/titles/comp.png" width="30" height="25" alt="prog"></h2>
+                            <pre class="pre">
+<code>
+Matrix Matrix::operator - (const Matrix& ob) {
+Matrix result(*this);
+for (int i = 0; i < n; i++)
+{
+for (int j = 0; j < n; j++) {
+result.matrix[i][j] -= ob.matrix[i][j];
+}
+}
+return result;
+}
+</code>
+        </pre>
+    </section>
+    <section class="section section-education" id="education">
+        <h2 class="section-title">Education <img src="./assets/titles/hat.jpg" width="25" height="25" alt="ed"></h2>
+        <li>Gymnasium №5 named after I. I. Luydnikov</li>
+        <li>Since 2021 — student of VSU</li>
+        <section class="section section-english" id="english">
+            <br> <br> 
+            <h2 class="section-title">English <img src="./assets/titles/en.png" width="30" height="30" alt="en"></h2>
+            <p><b>B2</b> — Upper-Intermediate</p>
+        </section>
+    </section>
+
+</div>
+</main> 
+
+<center>
+<footer class="footer">
+    <div class="container footer-container">
+    <div>© 2022 
+        <a href="https://github.com/lizon19" class="github nav-link">lizsemyonova</a>
+    </div>
+</div>
+</footer>
+</center>
+    </body>
+    </html>
