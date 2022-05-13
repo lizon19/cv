@@ -1,1 +1,16 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    font-size: 25px;
+    font-weight: 370;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fef4ff;
+  }
 
+  * {
+    box-sizing: border-box;
+  }
