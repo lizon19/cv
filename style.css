@@ -14,3 +14,34 @@ body {
   * {
     box-sizing: border-box;
   }
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  html {
+    scroll-behavior: smooth; 
+  }
+  .nav-list {
+    list-style: none;
+  }
+  .nav-link {
+    color: #000000;
+    padding: 0 20px;
+    line-height: 50px;
+  }
+  .nav-link {
+    text-decoration: none;
+    background-image: linear-gradient(#fef4ff,#000000);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+  }
+  .nav-link:hover {
+    background-size: 100% 2px;
+  }
